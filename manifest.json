@@ -1,0 +1,25 @@
+{
+  "short_name": "Distribute by Salesplat",
+  "name": "Distribute by Salesplat",
+  "description": "Bridging the gap between you and your customers",
+  "lang": "en",
+  "icons": [
+    {
+      "src": "pwa.png",
+      "type": "image/png",
+      "sizes": "144x144"
+    }
+  ],
+  "start_url": "./",
+  "background_color": "#e5f1fd",
+  "theme_color": "#e5f1fd",
+  "color": "#000",
+  "display": "minimal-ui",
+  "related_applications": [
+    {
+      "platform": "web",
+      "orientation": "portrait",
+      "url": "https://distribute.com"
+    }
+  ]
+}

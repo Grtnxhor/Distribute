@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- ===============================================-->
+    <!--    Document Title-->
+    <!-- ===============================================-->
+    <title>Bridging the gap between you and your customers - Distribute</title>
+
+    <meta charset="utf-8" />
+    <meta name="title" content="Bridging the gap between you and your customers - Distribute" />
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport" />
+
+    <!--  Social tags      -->
+    <meta name="keywords" content="Distribute, Salesplat" />
+    <meta name="description" content="Bridging the gap between you and your customers - Distribute" />
+
+    <!-- Schema.org markup for Google+ -->
+    <meta itemprop="name" content="Bridging the gap between you and your customers - Distribute" />
+    <meta itemprop="description" content="Bridging the gap between you and your customers - Distribute" />
+    <meta itemprop="image" content="img/Salesplat Distribute full Icon white.png" />
+
+    <!-- Twitter Card data -->
+    <meta name="twitter:card" content="distribute" />
+    <meta name="twitter:site" content="@distribute" />
+    <meta name="twitter:title" content="Bridging the gap between you and your customers - Distribute" />
+
+    <meta name="twitter:description" content="Bridging the gap between you and your customers - Distribute" />
+    <meta name="twitter:creator" content="@distribute" />
+    <meta name="twitter:image" content="hhttps://twitter.com/distribute/photo" />
+
+    <!-- Open Graph data -->
+    <meta property="fb:app_id" content="distribute" />
+    <meta property="og:title" content="Bridging the gap between you and your customers - Distribute" />
+    <meta property="og:type" content="logistics" />
+    <meta property="og:url" content="https://distribute.com" />
+    <meta property="og:image" content="img/Salesplat Distribute full Icon white.png" />
+    <meta property="og:description" content="Bridging the gap between you and your customers - Distribute" />
+    <meta property="og:site_name" content="distribute" />
+
+    <!-- OG Meta Tags to improve the way the post looks when you share the page on Facebook, Twitter, LinkedIn -->
+    <meta name="description" content="Bridging the gap between you and your customers - Distribute" />
+    <meta name="keywords" content="Bridging the gap between you and your customers - Distribute" />
+    <meta property="og:title" content="Bridging the gap between you and your customers - Distribute" />
+    <meta property="og:url" content="img/Salesplat Distribute full Icon white.png" />
+    <meta property="og:site_name" content="Bridging the gap between you and your customers - Distribute" />
+    <meta property="og:description" content="Bridging the gap between you and your customers - Distribute" />
+    <meta name="theme-color" content="#e5f1fd" />
+
+
+    <!-- ===============================================-->
+    <!--    Favicons-->
+    <!-- ===============================================-->
+    <link rel="apple-touch-icon" sizes="180x180" href="img/Salesplat Distribute full Icon white.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="img/Salesplat Distribute full Icon white.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="img/Salesplat Distribute full Icon white.png" />
+    <link rel="shortcut icon" type="image/x-icon" href="img/Salesplat Distribute full Icon white.png" />
+    <meta name="msapplication-TileImage" content="img/Salesplat Distribute full Icon white.png" />
+
+    <!-- distribute's Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Questrial&display=swap" rel="stylesheet">
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/fontawesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="manifest" href="manifest.json">
+
+</head>
+
+<body>
+
+   
+
+</body>
+
+<script src=" js/jquery.min.js "></script>
+<script src=" js/bootstrap.min.js "></script>
+<script src=" js/popper.min.js "></script>
+<script src=" js/fontawesome.min.js "></script>
+<script>
+    if ('serviceWorker' in navigator) {
+      console.log("Will the service worker register?");
+      navigator.serviceWorker.register('service-worker.js')
+        .then(function(reg){
+          console.log("Yes, it did.");
+        }).catch(function(err) {
+          console.log("No it didn't. This happened: ", err)
+        });
+    }
+  </script>
+  <script src="service-worker.js">
+          // Service worker for Progressive Web App
+      if ('serviceWorker' in navigator) {
+          navigator.serviceWorker.register('service-worker.js', {
+              scope: '.' // THIS IS REQUIRED FOR RUNNING A PROGRESSIVE WEB APP FROM A NON_ROOT PATH
+          }).then(function(registration) {
+              // Registration was successful
+              console.log('ServiceWorker registration successful with scope: ', registration.scope);
+          }, function(err) {
+              // registration failed :(
+              console.log('ServiceWorker registration failed: ', err);
+          });
+      }
+  </script>
+</html>
