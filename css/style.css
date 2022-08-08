@@ -210,6 +210,18 @@ body {
   border-radius: 60px 60px 60px 60px;
 }
 
+.mrchcard h5{
+
+  font-family: raleway;
+}
+
+
+.spwon{
+
+  width: 20rem !important;
+}
+
+
 /********** RESPONSIVENESS **********/
 
 /* For 480 Resolution - Laptop*/
@@ -275,6 +287,12 @@ body {
   .mrchcard{
 
     margin: 1%;
+  }
+
+  .spwon {
+
+    width: 100% !important;
+
   }
 }
 
