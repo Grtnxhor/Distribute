@@ -19,6 +19,12 @@
   font-weight: bold;
 }
 
+@font-face {
+  font-family: poppins-medium;
+  src: url(../font/Poppins-Medium.ttf);
+  font-weight: bold;
+}
+
 *, *::before, *::after {
   box-sizing: border-box;
   box-sizing: border-box;
@@ -142,6 +148,16 @@ body {
 
 }
 
+
+.merchbtn {
+
+  border: 2px solid #4884df;
+  padding: 10px 30px 10px 30px;
+  color: #4884df;
+  border-radius: 60px 60px 60px 60px;
+
+}
+
 .aboutbtn2 {
 
   background-color: #610000;
@@ -172,8 +188,28 @@ body {
 
 .card h4{
 
-  font-family: poppins-bold;
+  font-family: poppins-medium;
 }
+
+#fufillment {
+
+  background-color: #4884df;
+  border-radius: 50px 50px 50px 50px;
+}
+
+#fufillment h1 , .merchbtn{
+
+  color: #fff !important;
+}
+
+.fuflbtn {
+
+  border: 2px solid #fff;
+  padding: 10px 30px 10px 30px;
+  color: #fff;
+  border-radius: 60px 60px 60px 60px;
+}
+
 /********** RESPONSIVENESS **********/
 
 /* For 480 Resolution - Laptop*/
@@ -225,6 +261,20 @@ body {
     padding-left: 0.5rem!important;
     margin-right: 2.7rem!important;
     margin-left: 0.5rem!important;
+  }
+
+
+  .merchants {
+    padding-right: 0.5rem!important;
+    padding-left: 0.5rem!important;
+    margin-right: 2.7rem!important;
+    margin-left: 0.5rem!important;
+  }
+
+
+  .mrchcard{
+
+    margin: 1%;
   }
 }
 
