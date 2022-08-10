@@ -221,6 +221,20 @@ body {
   width: 20rem !important;
 }
 
+.prf {
+
+  font-family: raleway;
+  margin-top: 10rem !important;
+}
+
+
+footer{
+
+  background-color: #04192d !important;
+  width: 100% !important;
+  height: 60vh;
+}
+
 
 /********** RESPONSIVENESS **********/
 
@@ -293,6 +307,11 @@ body {
 
     width: 100% !important;
 
+  }
+
+  .prf {
+
+    margin-top: 5rem !important;
   }
 }
 
